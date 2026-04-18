@@ -10,6 +10,9 @@ h1 { font-size: 40px; color: #7c195d;}
  video{ margin-left: 330px; } 
  audio { position: relative; top : 90px;width : 350px ; margin-left: 300px;}
  .a2 { color: brown ;font-size: 35px; text-decoration: none; position : relative ; top : 150px; margin-left : 270px ;  }
+button { font-size: 35px ; color : blue ;  position: relative ; top : 180px }
+ .input1 { font-size: 40px ; color: white ;  position: relative ; top : 180px  }
+ .input2 { font-size: 40px ; color: white ; position: relative ; top : 180px    } 
 </style>
 </head>
   <body> <h1> "What will you get in RCB/Meow?"
@@ -21,8 +24,12 @@ h1 { font-size: 40px; color: #7c195d;}
   
   <video width="350" height="300" controls> <source src="videoplayback (69).mp4" type="video/mp4"> </video> 
   
-  <audio  controls> <source src="RCB.mp3" type="audio/mpeg"></audio>  <a href="index.html" class="a2">Go Back to previous page </a> 
-  
+  <audio  controls> <source src="RCB.mp3" type="audio/mpeg"></audio>   
+   <input class="input1" type="text" placeholder="username"> <br> <br> 
+   <input class="input2" type="email" placeholder="Enter Email"> 
+   <button onclick="button()">Sign up </button>
   </body> 
+ <script> function button () { alert ("are you sure to sign up?");} 
+  </script>
   
 </html>
